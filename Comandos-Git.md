@@ -20,11 +20,12 @@ Mi pimer repositorio
 20) git remote add origin "https://github.com/user/laborartorio-2026.git"
 (agrega el repo local con el de la nube 'Crea un remote llamado origin que apunta a esa URL. Un remote es un alias para un repositorio en otro lado (ej: GitHub)')
 21) git push -u origin main (sube todos los cambios a la nube)
+    
 Comandos para Ramas nuevas en Git
-22) git checkout -b nueva-rama (crear y moverme a la rama '-b de branch')
-23) git checkout main ('checkout como salirse de' cambiar o moverse a main' checkout para moverse entre ramas)
-24) git merge nueva-rama ('merge fusionar' esta funcion permite traer los cambios 'intgrarlos' de nueva-rama a la main 'la main tiene lo viejo+lo nuevo)
-25) git branch -d nueva-rama (elimina la referencia de la rama.Solo permite borrar si ya fue fusionada 'mergeada' '-d delete' los cambios ya estan en la main no quita cambios vinculados)
+23) git checkout -b nueva-rama (crear y moverme a la rama '-b de branch')
+24) git checkout main ('checkout como salirse de' cambiar o moverse a main' checkout para moverse entre ramas)
+25) git merge nueva-rama ('merge fusionar' esta funcion permite traer los cambios 'intgrarlos' de nueva-rama a la main 'la main tiene lo viejo+lo nuevo)
+26) git branch -d nueva-rama (elimina la referencia de la rama.Solo permite borrar si ya fue fusionada 'mergeada' '-d delete' los cambios ya estan en la main no quita cambios vinculados)
 
 # SI HAY CONFLICTO:
 # → abrir el archivo
